@@ -1,0 +1,154 @@
+body{
+    border-left: 8px solid orange;
+    border-right: 8px solid green;
+    z-index: 0;
+    margin: 0px;
+    position: absolute;
+    height: 100vh;
+    width: 98.8vw;
+    overflow: hidden;
+}
+.top{
+    z-index: 1;
+    position: absolute;
+    margin: 0;
+    top: 10px;
+    left: 33vw;
+    font-size: 35px;
+}
+.happy{
+    background-color: orange;
+}
+.in{
+    background-color: white;
+}
+.day{
+    background-color: green;
+}
+.sky{
+    height:100vh;
+    width: 250%;
+    position: absolute;
+    z-index: -1;
+    animation:sky 5s linear infinite;
+}
+@keyframes sky{
+    0%{
+        transform: translateX(-0px);
+    }
+    100%{
+        transform: translateX(-100px);
+    }
+}
+.city{
+    z-index: 0;
+    position: absolute;
+    width: 150%;
+    height: 170px;
+    top: 38.8vh;
+    left: 10px;
+    /* background-repeat: repeat-y; */
+    animation: city 4s linear infinite;
+}
+@keyframes city{
+    0%{
+        transform: translateX(-0px);
+    }
+    100%{
+        transform: translateX(-500px);
+    }
+}
+.car{
+    z-index: 2;
+    height: 175px;
+    position: absolute;
+    top: 55vh;
+    left: 32vw;
+    animation: car 5s linear infinite;
+}
+@keyframes car{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(5px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}
+.wheel1{
+    z-index: 3;
+    height: 78px;
+    position: absolute;
+    top: 70.9vh;
+    left: 34.6vw;
+    animation: wheel1 0.1s infinite;
+}
+@keyframes wheel1{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wheel2{
+    z-index: 3;
+    height: 78px;
+    position: absolute;
+    top: 70.9vh;
+    left: 53.5vw;
+    animation: wheel2 0.1s infinite;
+}
+@keyframes wheel2{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.road{
+    z-index: 0;
+    height:34vh;
+    width: 200%;
+    position: absolute;
+    top: 66vh;
+    animation: road 5s linear infinite;
+}
+@keyframes road{
+    0%{
+            transform: translateX(-0px);
+    }
+    100%{
+            transform: translateX(-1000px);
+    }
+}
+ .sun{
+    position: absolute;
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    top: 45px;
+    right: 20px;
+    animation: sun 300s linear infinite;
+}
+@keyframes sun{
+    0%{
+        transform: translate(-0px);
+    }
+    25%{
+        transform: translate(-1500px);
+    }
+    50%{
+        transform: translate(-0px);
+    }
+    75%{
+        transform: translate(-1500px);
+    }
+}
+.flag{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 56.2vh;
+    left:56vw;
+}

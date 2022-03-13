@@ -1,0 +1,76 @@
+body{
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    left: 440px;
+}
+.top{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+}
+.box1{
+    width: 120px;
+    height: 120px;
+    background-color: yellowgreen;
+    margin: 25px;
+    transition: width 2s linear 0s;
+}
+.box1:hover{
+  width: 300px;
+}
+.box2{
+    width: 120px;
+    height: 120px;
+    background-color: yellowgreen;
+    margin: 25px;
+    transition: all 2s linear 0s;
+}
+
+.box2:hover{
+    width: 300px;
+    height: 300px;
+   
+}
+
+.box3{
+    width: 120px;
+    height: 120px;
+    background-color: yellowgreen;
+    margin: 25px;
+    transition: width 3s linear 0s;
+
+}
+
+.box3:hover{
+    width: 400px;
+}
+
+.box4{
+    width: 120px;
+    height: 120px;
+    background-color: yellowgreen;
+    margin: 25px;
+    transition: width 3s ease 0s;
+
+}
+
+.box4:hover{
+    width: 400px;
+}
+
+.a{
+    position: absolute;
+    left: 110px;
+    top: 1050px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .a1{
+    position: absolute;
+    left: 110px;
+    top: 1100px;
+    font-size: 25px;
+    font-weight: bold;
+  }
